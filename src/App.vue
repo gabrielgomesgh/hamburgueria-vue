@@ -10,7 +10,7 @@ export default{
   },
   data() {
     return{
-      imgEndereco: '../public/img/logo.png'
+      logoEndereco: '../public/img/logo.png'
     }
   }
 }
@@ -18,15 +18,14 @@ export default{
 
 <template>
   <header>
-    <Navbar :src="imgEndereco" />
+    <Navbar :logoSrc="logoEndereco" />
   </header>
 
   <RouterView />
 
   <Footer />
-
 </template>
 
-<style>
-
+<style scoped>
+  
 </style>

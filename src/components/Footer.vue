@@ -5,5 +5,22 @@ export default{
 </script>
 
 <template>
-    @Todos os direitos reservados.
+    <div>
+        <p>
+            @Todos os direitos reservados.
+        </p>
+    </div>
 </template>
+
+<style scoped>
+div{
+    margin-bottom: 0;
+    margin-top: 80vh;
+    background-color: #181818;
+}
+p{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+</style>
