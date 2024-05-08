@@ -1,8 +1,18 @@
-<script setup>
+<script>
+  import Banner from '../components/Banner.vue'
+  import BurguerForm from '../components/BurguerForm.vue'
+  export default {
+    name: "Home",
+    components: {
+      Banner,
+      BurguerForm
+    }
+  }
 </script>
 
 <template>
   <main>
-    <h1>Home Page</h1>
+    <Banner />
+    <BurguerForm />
   </main>
 </template>
