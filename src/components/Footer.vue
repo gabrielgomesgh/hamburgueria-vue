@@ -15,7 +15,7 @@ export default{
 <style scoped>
 div{
     margin-bottom: 0;
-    margin-top: 80vh;
+    margin-top: 20vh;
     background-color: #181818;
 }
 p{

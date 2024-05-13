@@ -102,16 +102,6 @@
       "status": "Solicitado"
     },
     {
-      "id": "9478",
-      "nome": "João",
-      "carnes": "Alcatra",
-      "opcionais": [
-        "Bacon"
-      ],
-      "paes": "Parmesão e Orégano",
-      "status": "Solicitado"
-    },
-    {
       "id": "ce0e",
       "nome": "Ferreira",
       "carnes": "Picanha",

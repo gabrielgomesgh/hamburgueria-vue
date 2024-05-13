@@ -21,11 +21,6 @@ export default{
             this.meats = await data.carnes;
             this.opcionaisdata = await data.opcionais;
             this.breads = await data.paes;
-            // console.log("Body", data);
-            // console.log("Carnes", meats);
-            // console.log("Opcionais", opcionaisdata);
-            // console.log("Pães", breads);
-            // console.log(breads[0].tipo);
         },
         async createBurguer(e){
             e.preventDefault();

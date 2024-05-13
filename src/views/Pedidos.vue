@@ -1,12 +1,16 @@
 <script>
+  import PedidosList from '../components/PedidosList.vue'
   export default{
-    name: "Pedidos"
+    name: "Pedidos",
+    components:{
+      PedidosList
+    }
   }
 </script>
 
 <template>
   <div class="about">
-    <h1>This is the pedidos page</h1>
+    <PedidosList />
   </div>
 </template>
 
