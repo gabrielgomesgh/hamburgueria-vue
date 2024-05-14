@@ -79,10 +79,24 @@
   ],
   "burgers": [
     {
-      "id": "4143",
+      "id": "470f",
       "nome": "Gabriel",
       "carnes": "Picanha",
       "opcionais": [
+        "Cheddar",
+        "Tomate",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "paes": "Parmesão e Orégano",
+      "status": "Solicitado"
+    },
+    {
+      "id": "f1a0",
+      "nome": "João",
+      "carnes": "Maminha",
+      "opcionais": [
+        "Cheddar",
         "Tomate",
         "Cebola roxa"
       ],
@@ -90,27 +104,42 @@
       "status": "Solicitado"
     },
     {
-      "id": "fa4c",
-      "nome": "Alex",
-      "carnes": "Alcatra",
+      "id": "080b",
+      "nome": "Fabio",
+      "carnes": "Picanha",
       "opcionais": [
         "Bacon",
+        "Salame",
+        "Cebola roxa"
+      ],
+      "paes": "3 Queijos",
+      "status": "Solicitado"
+    },
+    {
+      "id": "22ff",
+      "nome": "Zeca",
+      "carnes": "Picanha",
+      "opcionais": [
+        "Tomate",
+        "Salame",
         "Cheddar",
+        "Bacon",
+        "Cebola roxa",
         "Pepino"
       ],
       "paes": "3 Queijos",
       "status": "Solicitado"
     },
     {
-      "id": "ce0e",
-      "nome": "Ferreira",
-      "carnes": "Picanha",
+      "id": "7e1a",
+      "nome": "Félix",
+      "carnes": "Veggie burger",
       "opcionais": [
-        "Cheddar",
-        "Salame",
-        "Bacon"
+        "Bacon",
+        "Cebola roxa",
+        "Salame"
       ],
-      "paes": "Italiano Branco",
+      "paes": "Parmesão e Orégano",
       "status": "Solicitado"
     }
   ]

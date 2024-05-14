@@ -41,10 +41,12 @@ export default{
                 headers: {"Content-Type": "application/json"},
                 body: dataJson
             })
+
+            window.alert("Pedido criado com sucesso!");
             
             this.name = '';
             this.meat = '';
-            this.opcionais = '';
+            this.opcionais = [];
             this.bread = '';
 
         }
@@ -66,14 +68,14 @@ export default{
 
             <div class="input-container">
                 <label for="bread">Pão</label>
-                <select type="text" name="bread" id="bread" v-model="bread">
+                <select name="bread" id="bread" v-model="bread">
                     <option v-for="bread in breads" :key="bread.id" :value="bread.tipo">{{ bread.tipo }}</option>
                 </select>
             </div>
 
             <div class="input-container">
                 <label for="meat">Carne</label>
-                <select type="text" name="meat" id="meat" v-model="meat">
+                <select name="meat" id="meat" v-model="meat">
                     <option v-for="meat in meats" :key="meat.id" :value="meat.tipo">{{ meat.tipo }}</option>
                 </select>
             </div>
